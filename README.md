@@ -1,6 +1,8 @@
 # Test-Examples
 This repository is intended for study purposes and contains only selected tasks and examples
 
+## Array Methods
+### flatMap
 ```javascript
 let n = '',
     arr = ["0", "1"],
@@ -10,7 +12,7 @@ let n = '',
 function sortOut(arr, num) {
 	num === 1 ?
   	 ( arr.flatMap(el => {n += el; arr1.push(n); n = n.slice(0, -1)}) ) :
-   ( arr.flatMap(el => {n += el; sortOut(arr, num - 1); n = n.slice(0, -1)}) );
+         ( arr.flatMap(el => {n += el; sortOut(arr, num - 1); n = n.slice(0, -1)}) );
 }
 
 sortOut(arr, num);
