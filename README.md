@@ -1,8 +1,9 @@
 # Test-Examples
 This repository is intended for study purposes and contains only selected tasks and examples
 
-```let n = '',
-		arr = ["0", "1"],
+```javascript
+let n = '',
+    arr = ["0", "1"],
     arr1 = [],
     num = 6;
 
